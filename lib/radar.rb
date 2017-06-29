@@ -23,7 +23,7 @@ class Radar
       decoded.fetch("IATA"),
       decoded.fetch("name"),
       decoded.fetch("city"),
-      decoded.fetch("weather").fetch("weather"),
+      decoded.fetch("weather"),
     )
   end
 end
